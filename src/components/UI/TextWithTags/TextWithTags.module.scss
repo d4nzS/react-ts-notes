@@ -1,0 +1,9 @@
+.text {
+  margin-bottom: 1rem;
+  text-align: justify;
+
+  &_selected {
+    font-weight: bold;
+    color: #8a2b06;
+  }
+}

@@ -1,0 +1,28 @@
+.notes {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+
+  &__list {
+    list-style-type: none;
+  }
+}
+
+.message {
+  font-size: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
